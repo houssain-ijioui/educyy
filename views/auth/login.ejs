@@ -1,0 +1,45 @@
+
+<div class="container-fluid">
+
+
+
+    <div class="container">
+        <a href="/index"><img src="/login/1.png" alt="logo"></a>
+
+        <%- include('../partials/messages.ejs') %>
+
+        <form action="/auth/login" method="POST">
+            <div>
+                <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+                <input type="text" id="email" placeholder="Email" name="email">
+                <hr>
+            </div>
+            <div>
+                <i class="fa fa-lock fa-lg"></i>
+                <input type="password" id="password" name="password" placeholder="Password">
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-md-1">
+                    <input id="checkbox" type="checkbox">
+                </div>
+                <div class="col-md-4">
+                    <p>Remember me</p>
+                </div>
+                <div class="col-md-6">
+                    <a href="#">Forgot Password?</a>
+                </div>
+            </div>
+            <br>
+            <button class="btn btn-primary btn-block btn-dark" type="submit">Sign Up</button>
+        </form>
+
+    
+        <p class="link-down">Not a member?<a href="/auth/register">sign up</a></p>
+    </div>
+</div>
+
+<%- contentFor('title') %>
+Log In
+<%- contentFor('css') %>
+"../login/loginstyle.css"

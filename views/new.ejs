@@ -1,0 +1,34 @@
+<%- include('./partials/header') %>
+
+
+<div class="container">
+    <h1>Create Your File</h1>
+
+    <form action="/new" enctype="multipart/form-data" method="POST">
+        <div>
+            <label id="">Course Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label id="">Description</label>
+            <textarea name="description" id=""></textarea>
+        </div>
+        <div>
+            <label>Upload File</label>
+            <input type="file" name="file" id="file">
+        </div>
+
+        <button id="btn" type="submit">Create</button>
+        <a id="link" href="/profile">Cancel</a>
+    </form>
+</div>
+
+
+
+<%- include('./partials/footer') %>
+
+<%- contentFor('title') %>
+Upload File
+<%- contentFor('css') %>
+"/new/style.css"
+ 

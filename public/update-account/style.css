@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 30px 25px 30px 40px;
+}
+
+#logo {
+    width: 265px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#img-back-signup {
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: -8px;
+}
+
+
+#img-back-signin {
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: -8px;
+}
+
+#img-back-logout {
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: -8px;
+}
+
+
+#text-register {
+    position: relative;
+    top: -46px;
+    left: 18.5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+
+
+#img-signin {
+    position: relative;
+    top: -77px;
+    left: 145px;
+    width: 75px;
+}
+
+
+
+.container {
+    width: 860px;
+    height: 820px;
+    border-radius: 12px;
+    padding: 35px 45px;
+    border: 1px solid black;
+}
+
+.container img {
+    width: 120px;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+
+.links {
+    display: flex;
+    height: 80px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links img {
+    width: 230px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.links a {
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 0.3px;
+    color: #384E77;
+    font-weight: bold;
+}
+
+footer {
+    position: relative;
+    top: 260px;
+    display: flex;
+    flex-direction: column;
+    background: #0F49CA4D;
+    height: 50px;
+}
+
+
+footer h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #384E77;
+    padding-top: 10px;
+}

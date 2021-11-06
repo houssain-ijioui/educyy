@@ -1,0 +1,40 @@
+
+
+
+<%- include('./partials/header.ejs') %>
+
+
+<main>
+    <div class="top">
+        <img src="/index/5.png" alt="">
+        <form action="/search" method="POST">
+            <input type="text" id="search" placeholder="Search for Teacher or School" name="searchQuery" required>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    <div class="middle">
+        <img src="/index/title 2.png" alt="">
+    </div>
+    <div class="bottom">
+        <div class="box">
+            <h1>As Teacher</h1>
+            <p>Pick your teachers courses & exams that you need for your class .</p>
+            <img id="teacher" src="/index/10.png" alt="">
+            <button class="btn u">Up load</button>
+        </div>
+        <div class="box">
+            <h1>As Student</h1>
+            <p>Upload courses & exams for your students that will need for their class .</p>
+            <img id="student" src="/index/12.png" alt="">
+            <button class="btn d">Download</button>
+        </div>
+    </div>
+</main>
+    
+    <%- include('./partials/footer.ejs') %>
+
+<%- contentFor('title') %>
+Education
+<%- contentFor('css') %>
+"index/styles.css"
+

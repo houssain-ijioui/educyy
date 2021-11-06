@@ -1,0 +1,14 @@
+<nav>
+    <a href="/"><img src="/index/1.png" alt="logo" id="logo"></a>
+    <div>
+        <% if (isAuth) { %>
+            <img src="/index/3.png" id="img-back-logout" alt="">
+            <a href="/auth/logout"><h3 id="text-logout">Log Out</h3></a>
+        <% } else { %>
+            <img src="/index/3.png" id="img-back-signup" alt="">
+            <img src="/index/4.png" id="img-back-signin" alt="">
+            <a href="/auth/register"><h3 id="text-register">Register</h3></a>
+            <a href="/auth/login"><img id="img-signin" src="/index/2.png"></a>
+        <% } %>
+    </div>
+</nav>

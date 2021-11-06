@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 30px 25px 30px 40px;
+}
+
+#logo {
+    width: 265px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#img-back-signup {
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: -8px;
+}
+
+
+#img-back-signin {
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: -8px;
+}
+
+#img-back-logout {
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: -8px;
+}
+
+
+#text-register {
+    position: relative;
+    top: -46px;
+    left: 18.5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+
+
+#img-signin {
+    position: relative;
+    top: -77px;
+    left: 145px;
+    width: 75px;
+}
+
+
+
+
+main {
+    position: relative;
+    top: -70px;
+}
+
+main .top {
+    background: #040D21 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #00000029;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+}
+
+.top img {
+    align-self: center;
+    width: 880px;
+    height: 405px;
+    margin-top: 30px;
+}
+
+.top form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.top #search {
+    width: 700px;
+    padding: 18px 0px 18px 10px;
+    align-self: center;
+    justify-self: center;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #C2C2C2;
+    font-weight: bold;
+    position: relative;
+    top: 35px;
+    left: 100px;
+    border: 0;
+    box-shadow: 0px 10px 50px #0037C180;
+}
+
+.top button {
+    width: 200px;
+    padding: 18px 0;
+    border-radius: 12px;
+    background-color: #040D21;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    position: relative;
+    top: 35px;
+    left: -99px;
+    align-self: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.middle {
+    position: relative;
+    top: 111px;
+    text-align: center;
+    height: 380px;
+}
+
+.bottom {
+    background: #040D21;
+    background-image: url('./7.png');
+    height: 320px;
+    position: relative;
+    top: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom .box {
+    position: relative;
+    top: -270px;
+    width: 415px;
+    height: 220px;
+    border: 0.5px solid #384E77;
+    box-shadow: -10px 20px 30px #384E7729;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin: 190px 0;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 50px #0037C180;
+    border: 0.5px solid #384E77;
+    border-radius: 10px;
+}
+
+.box h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.box p {
+    width: 240px;
+    margin-top: 20px;
+    font: normal normal medium 17px/20px Montserrat;
+    color: #8E9AAF;
+}
+
+.box #teacher {
+    position: relative;
+    top: -220px;
+    left: 230px;
+}
+
+.box #student {
+    position: relative;
+    top: -235px;
+    left: 260px;
+}
+
+.box button {
+    width: 120px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #384E77;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #1868D1;
+    cursor: pointer;
+    position: relative;
+    top: -170px;
+    left: 120px;
+}
+
+.box .u {
+    position: relative;
+    left: -175px;
+    top: -100px;
+}
+
+.box .d {
+    position: relative;
+    left: -120px;
+    top: -100px;
+}
+
+
+.links {
+    display: flex;
+    height: 80px;
+    position: relative;
+    top: 230px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links img {
+    width: 250px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 0.3px;
+    color: #384E77;
+    font-weight: bold;
+}
+
+footer {
+    position: relative;
+    top: 220px;
+    display: flex;
+    flex-direction: column;
+    background: #0F49CA4D;
+    height: 50px;
+}
+
+
+footer h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #384E77;
+    padding-top: 10px;
+}

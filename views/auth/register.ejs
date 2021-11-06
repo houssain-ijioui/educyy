@@ -1,0 +1,52 @@
+
+<div class="container-fluid">
+    <div class="container">
+        <h3>with your social network</h3>
+
+        <%- include('../partials/messages.ejs') %>
+
+        <div class="row">
+            <div class="col-md-6" style="flex: 1;">
+                <button id="google"><i class="fab fa-google fa-2x"></i></button>
+            </div>
+            <div class="col-md-6" style="flex: 1;">
+                <button id="facebook"><i class="fab fa-facebook-f fa-2x"></i></button>
+            </div>
+        </div>
+
+        <form action="/auth/register" method="POST">
+            <div>
+                <i class="fas fa-user-circle fa-lg" aria-hidden="true"></i>
+                <input type="text" id="name" placeholder="Full Name" name="fullName" required>
+                <hr>
+            </div>
+            <div>
+                <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+                <input type="text" id="email" placeholder="Email" name="email" required>
+                <hr>
+            </div>
+            <div>
+                <i class="fa fa-lock fa-lg"></i>
+                <input type="password" id="password" name="password1" placeholder="Password" required>
+                <hr>
+            </div>
+            <div>
+                <i class="fa fa-lock fa-lg"></i>
+                <input type="password" id="confirm_password" name="password2" placeholder="Confirm Password" required>
+                <hr>
+            </div>
+                
+            <br>
+            <button class="btn btn-primary btn-block btn-dark" type="submit">Register</button>
+        </form>
+
+    
+        <p class="link-down">Already have an account<a href="/auth/login">sign in</a></p>
+    </div>
+</div>
+
+
+<%- contentFor('title') %>
+Register
+<%- contentFor('css') %>
+"../register/registerstyle.css"

@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 30px 25px 30px 40px;
+}
+
+#logo {
+    width: 265px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#img-back-signup {
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: -8px;
+}
+
+
+#img-back-signin {
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: -8px;
+}
+
+#img-back-logout {
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: -8px;
+}
+
+
+#text-register {
+    position: relative;
+    top: -46px;
+    left: 18.5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+
+
+#img-signin {
+    position: relative;
+    top: -77px;
+    left: 145px;
+    width: 75px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 800px;
+    border: 1px solid black;
+    align-self: center;
+    padding: 20px;
+}
+
+
+.container h1, h3, h4 {
+    position: relative;
+    top: -110px;
+    left: 200px;
+    margin-bottom: 10px;
+}
+
+.container h1 {
+    font: normal normal bold 15px/15px;
+    color: #040D21;
+    font-size: 34px;
+}
+
+.container h3, h4 {
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: #8E9AAF;
+    font-style: italic;
+}
+
+.container button {
+    position: relative;
+    top: -260px;
+    left: 530px;
+    width: 150px;
+    height: 40px;
+    background-color: #1868D1;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#settings {
+    position: relative;
+    top: -215px;
+    left: 378px;
+    width: 150px;
+    height: 40px;
+    background-color: #1868D1;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.files {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.file {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+
+
+.links {
+    display: flex;
+    height: 80px;
+    position: relative;
+    top: 380px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links img {
+    width: 250px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 0.3px;
+    color: #384E77;
+    font-weight: bold;
+}
+
+footer {
+    position: relative;
+    top: 395px;
+    display: flex;
+    flex-direction: column;
+    background: #0F49CA4D;
+    height: 50px;
+}
+
+
+footer h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #384E77;
+    padding-top: 10px;
+}

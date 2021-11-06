@@ -1,0 +1,33 @@
+
+
+<%- include('./partials/header.ejs') %>
+
+<section id="black" >
+    <form action="/search" method="POST">
+        <input type="text" id="search" placeholder="Search for Teacher" name="searchQuery" required value="<%= name %>">
+        <button type="submit">Search</button>
+    </form>
+</section>
+ <section id="results">
+    <h1>Results for ' <%= name %>' :</h1> 
+
+    <% if (users.length > 0) { %>
+        <% users.forEach(user => { %>
+            <div class="profile">
+                <img src="/search/urn_aaid_sc_US_a2701eb0-5d35-4e96-802f-b0ecea56a96c.png" alt="">
+                <h1><%= user.fullName %></h1>
+                <h4>Lycee abdelkarim al khattabi, Tiznit</h4>
+            </div>
+        <% }) %>
+    <% } else { %>
+        <h2>No Results Found.</h2>
+    <% } %>    
+</section>
+
+<%- include('./partials/footer.ejs') %>
+
+
+<%- contentFor('title') %>
+<%= name %>
+<%- contentFor('css') %>
+"search/style.css"

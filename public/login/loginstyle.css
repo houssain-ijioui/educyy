@@ -1,0 +1,70 @@
+
+body {
+    background: #040D21;
+}
+
+.container {
+    flex-direction: column;
+    background: #ffffff;
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    padding-top: 20px;
+}
+
+#email, #password {
+    width: 300px;
+    height: 35px;
+    border: 0;
+    font-weight: 600;
+}
+
+#email, #password:focus {
+    outline: none;
+}
+
+hr {
+    position: relative;
+    top: -16px;
+    height: 2px;
+    border: none;
+    color: #333;
+    background-color: #333;
+}
+
+#checkbox {
+    width: 15px;
+    height: 15px;
+}
+
+.row p {
+    font: normal normal normal 15px/18px Montserrat;
+    color: #707070;
+    position: relative;
+    top: 2px;
+    left: -5px;
+}
+
+.row div a{
+    font: italic normal normal 17px/18px Montserrat;
+    color: #3777E3;
+    position: relative;
+    left: 50px;
+}
+
+.link-down {
+    font-size: 16px;
+}
+
+.link-down a {
+    font-style: italic;
+    margin-left: 5px;
+}
